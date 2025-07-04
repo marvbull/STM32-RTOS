@@ -24,7 +24,7 @@ The project was initially generated using **STM32CubeMX** to set up the hardware
 
 ## ⚙️ Technologies Used
 
-- **STM32F501 Microcontroller**  also worked on **STM32U575 Microcontroller**
+- **STM32F401 Microcontroller**  also worked on **STM32U575 Microcontroller**
 - **STM32CubeMX** – Project and peripheral initialization  
 - **Bare-metal C** – Kernel logic and memory management  
 - **ARM Cortex-M Assembly** – Manual context saving/restoring  
