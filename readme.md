@@ -5,8 +5,6 @@
 This project demonstrates a **custom real-time kernel** on an **STM32 microcontroller**, with a focus on implementing **manual context switching**.  
 The project was initially generated using **STM32CubeMX** to set up the hardware abstraction (clocks, timers, SysTick), then extended with **custom kernel logic** and **bare-metal control structures**.
 
----
-
 ## 🧠 Key Features
 
 - Manually implemented **context switching** on ARM Cortex-M  
