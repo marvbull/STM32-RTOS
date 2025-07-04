@@ -16,7 +16,6 @@ The project was initially generated using **STM32CubeMX** to set up the hardware
 - Integration of startup code and exception overrides (e.g. `PendSV_Handler`)  
 - Minimal footprint – designed for educational and experimental use
 
----
 
 ## 📂 Repository Structure
 
@@ -24,7 +23,6 @@ The project was initially generated using **STM32CubeMX** to set up the hardware
 - `src/core/src/asmDumps.s` – Assembly routines for saving/restoring context  
 - `doc/` – Proof pictures of more than one running Thread
 
----
 
 ## ⚙️ Technologies Used
 
@@ -35,7 +33,6 @@ The project was initially generated using **STM32CubeMX** to set up the hardware
 - **SysTick Timer** – Periodic context switch trigger  
 - **STM32CubeIDE / Keil / GCC** – Flexible toolchain support
 
----
 
 ## 🚀 How It Works
 
@@ -47,7 +44,6 @@ The project was initially generated using **STM32CubeMX** to set up the hardware
 
 The project builds a minimal RTOS-like system with **manual scheduling**, without relying on any third-party RTOS.
 
----
 
 ## 🛠️ Getting Started
 
@@ -66,8 +62,6 @@ The project builds a minimal RTOS-like system with **manual scheduling**, withou
 4. Build and flash to target board  
 5. Use debugger or GPIO/UART output to verify task switching
 
----
-
 ## ✅ Project Status
 
 ✅ **Functional Prototype**  
@@ -75,8 +69,6 @@ The system performs reliable context switches between multiple threads.
 All switching is implemented using custom logic – no RTOS frameworks involved.
 
 Great base for deeper exploration of embedded RTOS internals.
-
----
 
 ## 📄 License
 
